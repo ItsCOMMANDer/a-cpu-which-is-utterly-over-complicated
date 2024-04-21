@@ -1,0 +1,30 @@
+mov
+
+
+add
+
+sub
+
+mul
+
+div
+
+inc
+
+dec
+
+mod
+
+max
+
+min
+
+
+
+
+
+
+movs (mov special)
+
+ctx_ld (ld ctx)
+ctx_str (str ctx)

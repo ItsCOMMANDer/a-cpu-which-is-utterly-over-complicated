@@ -6,24 +6,9 @@ r0-r223 -> 128 bit
 
 {R} = 0-31 (register index)
 
-r{R}h{X} -> 64 bit
-register {R}, half {X} -> from low to high chunks.
-r0h0 -> lowest 64 bits of r0
-X = 0-1
+r{R} = R-th register
 
-r{R}q{X} -> 32 bit
-register {R}, quater {X} -> from low to high chunks.
-r0q0 -> lowest 32 bits of r0
-X = 0-3
 
-r{R}e{X} -> 16 bit
-register {R}, eigth {X} -> from low to high chunks.
-r0e0 -> lowest 16 bits of r0
-X = 0-7
-
-r{R}s{X} -> 8 bit
-register {R}, sixteenth {X} -> from low to high chunks.
-r0s0 -> lowest 8 bits of r0
-X = 0-16
+n "save states"
 
 above also works for "sp", "bp" and "pc" instead of "r{R}"
